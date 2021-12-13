@@ -1,0 +1,16 @@
+import numpy as np  
+array = np.random.randint(10, size=(3, 3))
+print(array)
+print(np.linalg.inv(array))
+rank = np.linalg.matrix_rank(array)
+print("Rank of the given Matrix is : ",rank)
+det = np.linalg.det(array)
+print("determinant of matrix:")
+print(int(det))
+flat_array = array.flatten()
+print('1D Array:')
+print(flat_array)
+w, v = np.linalg.eig(array)
+print("Eigen values:",w)
+print("Eigen vector:",v)
+
