@@ -1,0 +1,10 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+#data set contains details of no.of hours spend by students for studt and their marks
+student = pd.read_csv('student_scores.csv')
+student.head()
+
+
+student.describe()
+

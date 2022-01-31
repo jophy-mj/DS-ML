@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt
+Xax=student.iloc[:,0]
+Yax=student.iloc[:,1]
+plt.scatter(Xax,Yax)
+plt.xlabel("No.of hours")
+plt.ylabel("Score")
+plt.title("Student scores")
+plt.show()
