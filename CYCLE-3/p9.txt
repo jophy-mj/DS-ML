@@ -1,0 +1,12 @@
+sns.displot(
+    data=iris,
+    x="sepal_length", y="sepal_width"
+)
+sns.relplot(
+    data=iris,
+    x="petal_length", y="petal_width"
+)
+sns.histplot(
+    data=iris,
+    x="petal_length", y="petal_width"
+)

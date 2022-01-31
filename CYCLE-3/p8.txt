@@ -1,0 +1,6 @@
+sns.set_style("whitegrid")
+iris = sns.load_dataset("iris")
+sns.pairplot(iris, kind="kde")
+sns.pairplot(iris, kind="scatter",markers=["o", "s", "D"])
+sns.pairplot(iris, kind="hist")
+sns.pairplot(iris, kind="reg",markers=["o", "s", "D"])
